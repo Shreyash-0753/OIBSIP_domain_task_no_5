@@ -6,41 +6,50 @@ Sales forecasting is crucial for inventory planning, marketing strategies, and r
 To build a predictive model that accurately estimates product sales using past trends and available features. This involves end-to-end steps: data analysis, feature engineering, model building, evaluation, and selection of the best-performing regression model.
 
 ## Steps Performed :
+
 1. Data Collection & Loading :
 Imported the dataset (CSV format) with historical sales data.
+
 2. Exploratory Data Analysis (EDA) :
 Visualized sales trends across products, stores, and dates using:
-Time-series plots
-Bar charts
-Heatmaps and correlation matrices
+  * Time-series plots
+  * Bar charts
+  * Heatmaps and correlation matrices
+    
 3. Data Preprocessing :
-Handled missing values and duplicates
-Converted date formats and created new features (e.g., Month, Year, Day)
+  * Handled missing values and duplicates
+  * Converted date formats and created new features (e.g., Month, Year, Day)
+    
 4. Encoded categorical variables like Store ID, Product ID :
 Performed feature scaling where required
+
 5. Model Training :
+
 Trained multiple regression models:
 
-Linear Regression
-Decision Tree Regressor
-Support Vector Regressor
-Random Forest Regressor
-XGBoost Regressor
-6. Model Evaluation :
+  * Linear Regression
+  * Decision Tree Regressor
+  * Support Vector Regressor
+  * Random Forest Regressor
+  * XGBoost Regressor
+
+##Model Evaluation :
 Compared models using:
 
-R² Score
-RMSE
-MAE
+  * R² Score
+  * RMSE
+  * MAE
 
 ## Tools and Technologies Used :
-Programming Language: Python
-Development Environment: Jupyter Notebook / Google Colab
+
+  * Programming Language: Python
+  * Development Environment: Jupyter Notebook / Google Colab
+    
 Libraries & Frameworks:
-pandas, numpy – for data handling
-matplotlib, seaborn, plotly – for visualization
-scikit-learn – model building, preprocessing, and evaluation
-xgboost – gradient boosting algorithm
+  * pandas, numpy – for data handling
+  * matplotlib, seaborn, plotly – for visualization
+  * scikit-learn – model building, preprocessing, and evaluation
+  * xgboost – gradient boosting algorithm
 
 ## Outcome :
 Successfully developed a machine learning model that predicts future sales with high accuracy.
