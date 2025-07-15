@@ -32,6 +32,7 @@ Compared models using:
 R² Score
 RMSE
 MAE
+
 ## Tools and Technologies Used :
 Programming Language: Python
 Development Environment: Jupyter Notebook / Google Colab
@@ -40,10 +41,12 @@ pandas, numpy – for data handling
 matplotlib, seaborn, plotly – for visualization
 scikit-learn – model building, preprocessing, and evaluation
 xgboost – gradient boosting algorithm
+
 ## Outcome :
 Successfully developed a machine learning model that predicts future sales with high accuracy.
 Identified major factors affecting sales such as promotions, holidays, and seasonal trends.
 Achieved R² score above 90% using XGBoost.
 Enhanced understanding of time series patterns, regression modeling, and evaluation techniques.
+
 ## Conclusion :
 The sales prediction model demonstrates the effectiveness of machine learning in forecasting future performance based on historical data. By identifying key trends and patterns, businesses can make better decisions in inventory management, marketing, and budgeting.
